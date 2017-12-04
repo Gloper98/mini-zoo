@@ -1,0 +1,45 @@
+.animal {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.negative-colors {
+	filter: invert(.8);
+	-ms-filter: invert(.8);
+	-moz-filter: invert(.8);
+	-o-filter: invert(.8);
+	-webkit-filter: invert(.8);
+}
+.sepia {
+	filter: sepia(1);
+	-ms-filter: sepia(1);
+	-moz-filter: sepia(1);
+	-o-filter: sepia(1);
+	-webkit-filter: sepia(1);
+}
+.white-black {
+	filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+.photo-container {
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+}
+select {
+	margin-left: 18%;
+	border: none;
+	font-size: 17px;
+	color: #90b2a0;
+	outline: #90b2a0;
+	background-color: #e2fff0;
+	height: 25px;
+	width: 300px;
+}
+.header-div {
+	text-align: center;
+}
